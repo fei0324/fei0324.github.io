@@ -1,0 +1,47 @@
+nav {
+	background-color: #4b5320;
+	padding-right: 3%;
+}
+
+body {
+	padding-bottom: 10%;
+	font-family: 'Roboto Slab', serif;
+}
+
+p {
+	font-size: 0.9em;
+}
+
+h3 {
+	padding-bottom: 2%;
+}
+
+.main {
+	padding-top: 10%;
+}
+
+.section {
+	padding-bottom: 5%;
+}
+
+.icon i {
+	font-size: 1.2em;
+	color: red;
+}
+
+a {
+	color: black;
+}
+
+#intro-photo {
+	max-width: 90%;
+	height: auto;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+ul li {
+	padding-left: 5%;
+}
