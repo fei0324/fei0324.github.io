@@ -1,6 +1,7 @@
 nav {
 	background-color: #4b5320;
-	padding-right: 3%;
+	padding-right: 5%;
+	padding-left: 1%;
 }
 
 body {
@@ -26,6 +27,10 @@ h3 {
 .icon i {
 	font-size: 1.2em;
 	color: red;
+}
+
+.icon a {
+	text-decoration: none;
 }
 
 a {
