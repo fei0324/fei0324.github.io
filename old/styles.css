@@ -1,0 +1,97 @@
+nav {
+	background-color: #4b5320;
+	padding-right: 5%;
+	padding-left: 1%;
+}
+
+body {
+	/*padding-top: 5%;*/
+	padding-bottom: 5%;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+
+
+h3 {
+	padding-bottom: 2%;
+}
+
+.main {
+	padding-top: 7%;
+}
+
+.section {
+	padding-bottom: 5%;
+}
+
+.icon i {
+	font-size: 1.2em;
+	color: red;
+}
+
+.icon a {
+	text-decoration: none;
+}
+
+a {
+	color: black;
+}
+
+#intro-photo {
+	max-width: 90%;
+	height: auto;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+ul li {
+	padding-left: 5%;
+}
+
+/* Gallery styles */
+
+* {
+	box-sizing: border-box;
+  }
+
+.gallery{
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+.travels {
+	-ms-flex: 25%; /* IE10 */
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+  }
+  
+.travels img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	.travels {
+	  -ms-flex: 50%;
+	  flex: 50%;
+	  max-width: 50%;
+	}
+}
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.travels {
+	  -ms-flex: 100%;
+	  flex: 100%;
+	  max-width: 100%;
+	}
+}

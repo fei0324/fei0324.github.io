@@ -1,100 +1,340 @@
 <!doctype html>
-<html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Fangfei Lan's Personal Website</title>
 
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/b6de485871.js" crossorigin="anonymous"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img id="intro-photo" src=photo.jpg></img>
+        <br><br>
+        <h1>hi, i'm fei!</h1>
+        <p>Ph.D. student at Scientific Computing and Imaging Institute (SCI), University of Utah</p>
+        <p>Currently a visiting researcher at Linköping University, Immersive Visuzliation group, in Sweden</p>
+        <p>
+          <span class="icon">
+            <i class="fas fa-map-pin fa-lg"></i>
+          </span>
+          &nbsp Norrköping, Sweden
+        </p>
+        <p><a href="Resume_2023.11.03.pdf">cv</a></p>
+        <p><a href="https://github.com/fei0324">some code</a></p>
+        <p><a href="https://www.goodreads.com/user/show/108568591-fangfei-lan">some books</a></p>
+        <p>last place i traveled to: Vienna, Austria</p>
+        <p>next stop: Amsterdam, Netherlands</p>
+        <!-- <p class="view"><a href="https://github.com/fei0324">View projects on GitHub</a></p> -->
+        <!-- <ul>
+          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
+        </ul> -->
+      </header>
+      <section>
+        <h2>about me</h2>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <p>My name is Fangfei Lan. I am a PhD student at <a href="https://www.sci.utah.edu/">the Scientific Computing and Imaging Institute (SCI)</a>, University of Utah, working with <a href="http://www.sci.utah.edu/~beiwang/">Bei Wang</a> on topological data analysis (TDA) and data visualization. I was initially drawn to topology because of fascinating objects such as the mobius strip and the Klein bottle. Now I study topology because I believe the "shape" of data matters. My research goal is to apply theories of algebraic and computational topology to analyzing high dimensional scientific data using visualization.</p>
+        <p>I am currently a visiting PhD student at the immersive visualization group at Linkôping University, Sweden. I work with <a href="http://alexanderbock.eu/">Alexander Bock</a> and <a href="https://ynnerman.se/">Anders Ynnerman</a> on the visualization of astrophysics.</p>
+				<p>I earned a Bachelor of Science in Mathematics with a second major in Computational Science from American University (AU) in 2017. Topology was introduced to me by the brilliant applied mathematian <a href="https://www.drmichaelrobinson.net/">Dr. Michael Robinson</a> at AU, who encouraged and supported me at the start of my research journey in TDA.</p>
+        <p>Apart from research, I'm a dedicated salsera, an avid traveler and outdoor explorer, a bookworm, and a food lover.</p>
 
-	<script src="https://kit.fontawesome.com/b6de485871.js" crossorigin="anonymous"></script>
+        <h2>education</h2>
+        <p>Ph.D. in Computing, University of Utah (2019 - present)</p>
+        <p>B.S. in Mathematics and Computational Science, American University (2014 - 2017)</p>
 
-	<title>Fangfei Lan</title>
-</head>
-<body>
-	<!-- <h1>Hello, world!</h1> -->
-	<nav class="navbar navbar-expand-lg sticky-top navbar-dark pt-3 pb-3">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="index.html">Fangfei Lan</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="index.html">Research</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="teaching.html">Teaching</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="news.html">News</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="outdoors.html" tabindex="-1" aria-disabled="true">Outdoors+</a>
-					</li>
+        <h2>news</h2>
+        <p><strong>September 2023: </strong>Starting research visit at Linköping University, Immersive Visualization group, in Sweden. </p>
+        <p><strong>January 2023: </strong>Attending Joint Mathematics Meeting 2023 in Boston.</p>
+        <p><strong>October 2022: </strong>Attending IEEE Visualization Conference 2022 in Oklahoma City.</p>
+
+        <!-- <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
+
+        <ul>
+          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
+          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
+          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
+          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
+          <li>User/#Num: mojombo#1</li>
+          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
+        </ul>
+
+        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
+
+        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p> -->
+
+        <h2>publications</h2>
+
+        <table>
+          <tbody>
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td class="table-img">
+                <div class="div-img">
+                  <img src="papers/2024_Uncertainty_AR.png" alt="2024_Uncertainty_AR">
+                </div>
+              </td>
+              <td><strong>Topological Characterization and Uncertainty Visualization of Atmospheric Rivers.</strong><br>
+              <p>Fangfei Lan, Brandi Gamelin, Lin Yan, Jiali Wang, Bei Wang, Hanqi Guo.<br>
+              <em>Under review at Eurographics Conference on Visualization (EuroVis), 2024.</em> &nbsp
+                <span class="icon">
+                  <a href="">
+                    <i class="fas fa-file fa-lg"></i>
+                  </a>
+                </span>
+                </p></td>
+            </tr>
+            <tr>
+              <td class="table-img">
+                <div class="div-img">
+                  <img src="papers/2024_Reeb_Graphs.png" alt="2024_Reeb_Graphs">
+                </div>
+              </td>
+              <td><strong>Labeled Interleaving Distance for Reeb Graphs.</strong><br>
+              <p>Fangfei Lan, Salman Parsa, Bei Wang.<br>
+              <em>Under review at Journal of Applied and Computational Topology (APCT), 2024.</em> &nbsp
+                <span class="icon">
+                  <a href="papers/2024_Reeb_Graphs.pdf">
+                    <i class="fas fa-file fa-lg"></i>
+                  </a>
+                </span>
+                </p></td>
+            </tr>
+            <tr>
+              <td class="table-img">
+                <div class="div-img">
+                  <img src="papers/2022_Uncertainty_Graph_Coarsening.png" alt="2022_Uncertainty_Graph_Coarsening">
+                </div>
+                </td>
+              <td><strong>Uncertainty Visualization for Graph Coarsening.</strong><br>
+              <p>Fangfei Lan, Sourabh Palande, Michael Young, Bei Wang.<br>
+              <em>IEEE International Conference on Big Data (IEEE Big Data), 2022.</em> &nbsp
+              <span class="icon">
+                <a href="papers/2022_Uncertainty_Graph_Coarsening.pdf">
+                  <i class="fas fa-file fa-lg"></i>
+                </a>
+              </span>
+              </p></td>
+            </tr>
+            <tr>
+              <td class="table-img">
+                <div class="div-img">
+                  <img src="papers/2021_STAR_Astro.png" alt="2021_STAR_Astro">
+                </div>
+              </td>
+              <td><strong>Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, and Educating the Earth.</strong><br>
+              <p>Fangfei Lan, Michael Young, Lauren Anderson, Anders Ynnerman, Alexander Bock, Michelle A. Borkin, Angus G. Forbes, Juna A. Kollmeier, Bei Wang.<br>
+              <em>Eurographics Conference on Visualization (EuroVis), 2021. Computer Graphics Forum, 2021.</em> &nbsp
+                <span class="icon">
+                  <a href="https://youtu.be/l-ofZKxNeCE">
+                    <i class="fas fa-film fa-lg"></i>
+                  </a>
+                </span>
+                &nbsp
+                <span class="icon">
+                  <a href="https://youtu.be/slWoPhjEsOc">
+                    <i class="fas fa-video fa-lg"></i>
+                  </a>
+                </span>
+                &nbsp
+                <span class="icon">
+                  <a href="papers/2021_STAR_Astro.pdf">
+                    <i class="fas fa-file fa-lg"></i>
+                  </a>
+                </span>
+                </p></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>recent talks</h2>
+          <p>Thesis proposal: Ensemble Analysis of Graphical Descriptors.<br>
+            University of Utah, 2023.</p>
+          <p>Presentation: Topological Characterization and Uncertainty Visualization of Atmopheric Rivers.<br>
+            <em>Summer School on "Topological Data Analysis in Visualization"</em>, Linköping University, 2023.</p>
+          <p>Presentation: Uncertianty Visualization of Graph Coarsening.<br>
+          <em>Visualization Seminar</em>, University of Utah, 2023.</p>
+          <p>Invited Talk: Topological Characterization of Atmopheric Rivers.<br>
+          <em>AMS Special Session on Applied Topology: Theory and Implementation, Joint Mathematics Meetings</em>, <br> Boston, 2023.</p>
+
+        <h2>organized workshops</h2>
+        <p>AMS Special Session on Models and Methods for Sparse (Hyper) Network Science (a Mathematics Research Communities Session).
+        <em>Joint Mathematics Meetings</em>, Boston 2023.</p>
+
+        <h2>awards</h2>
+        <p>Participant of AMS MRC 2022 on Models and Methods for Sparse (Hyper)Network Science.</p>
+        <p>Participant of 2021 GRA-WP Grad Cohort for Women Workshop.</p>
+        <p>Member of Upsilon Pi Epsilon (international honor society for the computing and information disciplines).</p>
+
+        <h2>professional experience</h2>
+        <p>Visiting Researcher, Linköping University (October 2023 - present).</p>
+        <p>Ph.D. Research Intern, Argonne National Laboratory (Summer 2022).</em></p>
+        <p>Bioinformatics Analyst, Medstar Health Research Institute (October 2018 - July 2019).</p>
+
+        <h2>teaching</h2>
+
+				<p>I have been the teaching assistant for the following undergraduate and graduate courses.</p>
+				<p>University of Utah: </p>
+				<ul>
+					<li>CS 2100 Discrete Structures</li>
+					<li>CS 6170 Computational Topology</li>
 				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<div class="container main">
-		<div class="row section">
-			<div class="col-sm-8">
-				<h3>Fangfei (Fei) Lan</h3>
-				<p>I am a PhD student at <a href="https://www.sci.utah.edu/">the Scientific Computing and Imaging Institute (SCI)</a>, University of Utah, working with <a href="http://www.sci.utah.edu/~beiwang/">Dr. Bei Wang</a> on topological data analysis and data visualization. I study topology because I find objects such as the mobius strip and the Klein bottle fascinating, and also because most objects have geometrical properties and I believe that shape matters. My research goal is to use the theory of algebraic and computational topology to analyze complex high dimensional data. Specifically, I would like to develop topology-based analysis techniques for data visualizataion (information and scientific visualization) from a few different perspectives such as uncertainty, summarization and multivariate analysis.</p>
-				<p>I earned a Bachelor of Science in Mathematics with a second major in Computational Science from American University (AU) in 2017. Topology was introduced to me by the applied mathematian <a href="https://www.drmichaelrobinson.net/">Dr. Michael Robinson</a> at AU, who sparked my interest in the subject, and continued to encourage and support me on my research journey in TDA.</p>
-				<p>Email: fangfei.lan at utah dot edu</p>
-				<p><a href="Resume_2021.7.24.pdf">CV</a>: last updated July 31, 2021</p>
-			</div>
-			<div class=col-sm-4>
-				<img id="intro-photo" src="photo.jpg">
-			</div>
-		</div>
-
-		<div class="row section">
-			<h3>Papers</h3>
-			<p>Fangfei Lan, Michael Young, Lauren Anderson, Anders Ynnerman, Alexander Bock, Michelle A. Borkin, Angus G. Forbes, Juna A. Kollmeier, Bei Wang.<br><strong>Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, and Educating the Earth.</strong><br>
-			<em>Eurographics Conference on Visualization (EuroVis), 2021. Computer Graphics Forum, 2021.</em> &nbsp
-			<span class="icon">
-				<a href="https://youtu.be/l-ofZKxNeCE">
-					<i class="fas fa-film fa-lg"></i>
-				</a>
-			</span>
-			&nbsp
-			<span class="icon">
-				<a href="https://youtu.be/slWoPhjEsOc">
-					<i class="fas fa-video fa-lg"></i>
-				</a>
-			</span>
-			&nbsp
-			<span class="icon">
-				<a href="papers/STAR_Astro_2021.pdf">
-					<i class="fas fa-file fa-lg"></i>
-				</a>
-			</span>
-			</p>
-		</div>
-
-		<div class="row section">
-			<h3>Ongoing Projects</h3>
-			<p>
-				Fangfei Lan, Sourabh Palande, Michael Young, Bei Wang. <strong>Uncertainty Visualization for Graph Coarsening.</strong><em> In preparation, 2021.</em><br>
-				Fangfei Lan, Benwei Shi, Jeff Phillips, Bei Wang. <strong>Mergeable Merge Trees.</strong><em> In preparation, 2021.</em><br>
-				Fangfei Lan, David Miller, Bei Wang. <strong>Multivariate Discrete Stratified Morse Theory.</strong><em> In preparation, 2021.</em>
-			</p>
-		</div>
-	</div>
+				<p>American University:</p>
+				<ul>
+					<li>STAT 203 Basic Statistics with Calculus</li>
+					<li>MATH 313 Calculus III</li>
+				</ul>
 
 
-	<!-- Option 1: Bootstrap Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+
+        <!-- <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
+
+        <ul>
+          <li>Red Apples</li>
+          <li>Purple Grapes</li>
+          <li>Green Kiwifruits</li>
+        </ul>
+
+        <p>Let's get crazy:</p>
+
+        <ol>
+          <li>
+            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
+            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
+            mi posuere lectus.</p>
+
+            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
+            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
+            sit amet velit.</p>
+          </li>
+          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
+        </ol>
+
+        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
+
+        <ol>
+          <li>
+            <p>In Ruby you can map like this:</p>
+
+            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
+          </li>
+          <li>
+            <p>In Rails, you can do a shortcut:</p>
+
+            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
+          </li>
+        </ol>
+
+        <p>Some people seem to like definition lists</p>
+
+        <dl>
+          <dt>Lower cost</dt>
+          <dd>The new version of this product costs significantly less than the previous one!</dd>
+          <dt>Easier to use</dt>
+          <dd>We've changed the product so that it's much easier to use!</dd>
+        </dl>
+
+        <h2>I am a robot</h2>
+
+        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
+
+        <pre><code>def robot_invasion
+  puts("robot " * 1000)
+end
+</code></pre>
+
+        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
+
+        <p>How about we throw some angle braces and ampersands in there?</p>
+
+        <pre><code>&lt;div class="footer"&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre>
+
+        <h2>Set in stone</h2>
+
+        <p>Preformatted blocks are useful for ASCII art:</p>
+
+        <pre>             ,-.
+    ,     ,-.   ,-.
+   / \   (   )-(   )
+   \ |  ,.&gt;-(   )-&lt;
+    \|,' (   )-(   )
+     Y ___`-'   `-'
+     |/__/   `-'
+     |
+     |
+     |    -hrr-
+  ___|_____________
+</pre>
+
+        <h2>Playing the blame game</h2>
+
+        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
+
+        <blockquote>
+        <p>I, at any rate, am convinced that He does not throw dice.</p>
+        </blockquote>
+
+        <p>Or perhaps someone a little less eloquent:</p>
+
+        <blockquote>
+        <p>I wish you'd have given me this written question ahead of time so I<br>
+        could plan for it... I'm sure something will pop into my head here in<br>
+        the midst of this press conference, with all the pressure of trying to<br>
+        come up with answer, but it hadn't yet...</p>
+
+        <p>I don't want to sound like<br>
+        I have made no mistakes. I'm confident I have. I just haven't - you<br>
+        just put me under the spot here, and maybe I'm not as quick on my feet<br>
+        as I should be in coming up with one.</p>
+        </blockquote>
+
+        <h2>Table for two</h2>
+
+        <table>
+          <tbody>
+        <tr>
+            <th>ID</th>
+        <th>Name</th>
+        <th>Rank</th>
+          </tr>
+          <tr>
+            <td>1</td>
+        <td>Tom Preston-Werner</td>
+        <td>Awesome</td>
+          </tr>
+          <tr>
+            <td>2</td>
+        <td>Albert Einstein</td>
+        <td>Nearly as awesome</td>
+          </tr>
+        </tbody>
+        </table>
+
+        <h2>Crazy linking action</h2>
+
+        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
+        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p> -->
+      </section>
+      <!-- <footer>
+        <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer> -->
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
 </html>
