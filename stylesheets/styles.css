@@ -257,6 +257,39 @@ footer {
     word-wrap:break-word;
   }
 
+  .publications-table,
+  .publications-table tbody,
+  .publications-table tr,
+  .publications-table td {
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+  }
+
+  .publications-table tr:first-child {
+    display:none;
+  }
+
+  .publications-table td {
+    padding:10px 0;
+  }
+
+  .publications-table .table-img {
+    border-bottom:0;
+  }
+
+  .publications-table .div-img {
+    width:100%;
+    height:auto;
+    box-sizing:border-box;
+  }
+
+  .publications-table .div-img img {
+    display:block;
+    width:100%;
+    height:auto;
+  }
+
   header {
     padding:0;
   }
